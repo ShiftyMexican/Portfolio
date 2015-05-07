@@ -4,58 +4,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Jarrod Dowsey</title>
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/foundation.min.css">
 		<link rel="shortcut icon" href="./Images/icon2.ico">
 	</head>
-	<body background="./Images/background.jpg" style="padding-top: 70px;">
-		
-		<!-- The Main wrapper div starts -->
-		<div class="container">
-			<h1 class="text-warning">Jarrod Dowsey</h1>
-			<!-- Navigation -->
-			<div class="navbar navbar-inverse navbar-fixed-top">
-	          <div class="navbar-inner">
-	            <div class="container">
-	              <ul class="nav">
-	                <li class="active"><a href="#">Home</a></li>
-	                <li><a href="./Projects.html">Projects</a></li>
-	                <li><a href="#">Personal Details</a></li>
-	              </ul>
-	            </div>
-	          </div>
-			</div>
 
-			<div class="hero-unit" align="center">
-				<h1>Portfolio</h1>
-				<p> Welcome to my portfolio. Here you will find some of my best and most proud work. Feel free to have a look around and see what you think. </p>
-			</div>
-			
-			<div class="hero-unit" align="center">
-				<ul class="thumbnails">
-					<li class="span5">
-						<div class="thumbnail" style="height: 400px;">
-							<img src="./Images/PathFinding.png" class="img-rounded" style="height:249px;"/>
-							<h3>Path Finding</h3>
-							<p>Click here to learn more about my Path Finding program.</p>
-							<div> 
-								<a href="./Projects.html#PathFinding" class="btn btn-success">Read More</a>
-							</div>
-						</div>
-					</li>
+	<body>
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Jarrod Dowsey</a></h1>
+				</li>
+			</ul>
+		</nav>
 
-					<li class="span5">
-						<div class="thumbnail" style="height: 400px;">
-							<img src="./Images/NeonCommander.png" class="img-rounded"/ style="min-height:50px;height:249px;">
-							<h3>Neon Commander</h3>
-							<p>Click here to learn more about this action packed neon style space shooter. </p>
-							<div> 
-								<a href="./Projects.html#NeonCommander" class="btn btn-success">Read More</a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>			
-		</div>
+		<ul class="example-orbit" data-orbit>
+			<li>
+				<img src="Images/NeonCommander.png" alt="slide 1" />
+			</li>
+
+			<li class="active">
+				<img src="Images/PathFinding.png" alt="slide 2" />
+			</li>
+		</ul>
+	
 
 	</body>
 </html>
