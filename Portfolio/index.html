@@ -4,11 +4,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Jarrod Dowsey</title>
+		<!-- Linking the Foundation css -->
 		<link rel="stylesheet" type="text/css" href="./css/foundation.min.css">
+		<!-- Linking the slick css-->
+		<link rel="stylesheet" type="text/css" href="./css/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css">
 		<link rel="shortcut icon" href="./Images/icon2.ico">
 	</head>
 
 	<body>
+	<div class="fixed">
 		<nav class="top-bar" data-topbar role="navigation">
 			<ul class="title-area">
 				<li class="name">
@@ -16,17 +21,37 @@
 				</li>
 			</ul>
 		</nav>
+	</div>
 
-		<ul class="example-orbit" data-orbit>
-			<li>
-				<img src="Images/NeonCommander.png" alt="slide 1" />
-			</li>
+		<div class="row">
+		<div class="small-12 columns">
+			<div class="your-class">
+    			<img src="./Images/Emu.png">
+    			<img src="./Images/Enemies.png">
+    			<div>your content</div>
+    		</div>
+  		</div>
+		</div>
 
-			<li class="active">
-				<img src="Images/PathFinding.png" alt="slide 2" />
-			</li>
-		</ul>
 	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="./css/slick/slick.min.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+  			$('.your-class').slick({
+  				function(){
+  					$('.autoplay').slick({
+  				slidesToShow: 3,
+  				slidesToScroll: 1,
+  				autoplay: true,
+  				autoplaySpeed: 2000,
+			});
+            }
+  			});
+			});
 
+		</script>
 	</body>
 </html>
