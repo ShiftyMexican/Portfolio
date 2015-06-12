@@ -1,6 +1,52 @@
 body {
-	background-image: url(./Images/darkWooden.jpg);
-	background-repeat: repeat-x;
+	background-image: url(../Images/darkwood.png);
+	background-repeat: repeat;
 
 	padding-top: 65px;
+}
+
+@font-face {
+	font-family: myTitleFont;
+	src: url(../Fonts/BarelyHandwritten.ttf);
+}
+
+@font-face {
+	font-family: myTextFont;
+	src: url(../Fonts/CarlJohn.ttf);
+}
+
+h2 {
+	font-family: myTitleFont;
+}
+
+p {
+	font-family: myTextFont;
+	font-size: 16px;
+}
+
+.panel h2 {
+	color: #000;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.panel p {
+	color: #000;
+	font-size: 26px;
+}
+
+.panel {
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-bottom: 35px;
+	padding-right: 35px;
+	margin-bottom: 35px;
+	border-style: double;
+	border-color: white;
+}
+
+.hero-unit {
+	margin-bottom: 35px;
+	border-style: double;
+	border-color: white;
 }
