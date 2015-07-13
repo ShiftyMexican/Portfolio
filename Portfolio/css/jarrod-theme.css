@@ -19,6 +19,10 @@ h2 {
 	font-family: myTitleFont;
 }
 
+h3 {
+	font-family: myTitleFont;
+}
+
 p {
 	font-family: myTextFont;
 	font-size: 16px;
@@ -30,9 +34,14 @@ p {
 	text-decoration: underline;
 }
 
+.panel h3 {
+	color: #000;
+	text-decoration: underline;
+}
+
 .panel p {
 	color: #000;
-	font-size: 26px;
+	font-size: 25px;
 }
 
 .panel {
