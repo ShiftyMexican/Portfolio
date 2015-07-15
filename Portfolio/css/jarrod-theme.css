@@ -15,6 +15,10 @@ body {
 	src: url(../Fonts/CarlJohn.ttf);
 }
 
+h1{
+	font-family: myTitleFont;
+}
+
 h2 {
 	font-family: myTitleFont;
 }
@@ -26,6 +30,12 @@ h3 {
 p {
 	font-family: myTextFont;
 	font-size: 16px;
+}
+
+.panel h1 {
+	color: #000;
+	font-size: 70px;
+	text-decoration: underline;
 }
 
 .panel h2 {
@@ -50,12 +60,41 @@ p {
 	padding-bottom: 35px;
 	padding-right: 35px;
 	margin-bottom: 35px;
-	border-style: double;
+	border-style: solid;
 	border-color: white;
+	border-width: 5px;
 }
 
-.hero-unit {
+.Aboutpanel {
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-bottom: 35px;
+	padding-right: 35px;
 	margin-bottom: 35px;
 	border-style: double;
+	border-color: black;
+	border-width: 10px;
+}
+
+.blogPanel{
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-bottom: 35px;
+	padding-right: 35px;
+	margin-bottom: 35px;
+	border-style: double;
+	border-color: black;
+	border-width: 10px;
+}
+
+#blog .panel{	
+	max-height: 500px;
+	overflow-y:scroll;
+	padding-top: 15px;
+}
+.hero-unit {
+	margin-bottom: 35px;
+	border-style: solid;
 	border-color: white;
+	border-width: 5px;
 }
