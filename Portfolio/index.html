@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 		<!-- Linking the Foundation css -->
 		<link rel="stylesheet" type="text/css" href="./css/foundation.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/foundation.css">
 		<!-- Linking the slick css-->
 		<link rel="stylesheet" type="text/css" href="./css/slick/slick.css">
 		<link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css">
@@ -21,10 +22,14 @@
 		<div class="fixed">
 		<nav class="top-bar" data-topbar role="navigation">
 			<ul class="title-area">
-				<li class="name">
-					<h1><a href="#">Jarrod Dowsey</a></h1>
-				</li>
+				<li class="name"> <h1>Jarrod Dowsey</h1> </li>
 			</ul>
+
+			<div class="tob-bar-section">
+				<ul class="left">
+					<li><a href="./Projects.html">Projects</a></li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 
@@ -103,12 +108,13 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
   			$('.slider').slick({
-  				arrows: true,
+  				arrows: false,
   				autoplay: true,
   				autoplaySpeed: 2000,
   				infinite: true,
   				dots: true,
   				pauseOnHover: false,
+
   			});
 			});
 

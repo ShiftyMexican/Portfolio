@@ -32,6 +32,15 @@ p {
 	font-size: 16px;
 }
 
+.top-bar h1 {
+	color: white;
+	text-decoration: underline;
+}
+
+.top-bar {
+	padding-left: 15px;
+}
+
 .panel h1 {
 	color: #000;
 	font-size: 70px;
