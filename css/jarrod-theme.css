@@ -34,11 +34,10 @@ p {
 
 .top-bar h1 {
 	color: white;
-	text-decoration: underline;
 }
 
-.top-bar {
-	padding-left: 15px;
+.top-bar menu-background{
+	background: #000000;
 }
 
 .panel h1 {
