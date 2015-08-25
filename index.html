@@ -16,6 +16,8 @@
 		<link rel="shortcut icon" href="./Images/icon2.ico">
 		<!-- Linking Jarrod css -->
 		<link rel="stylesheet" type="text/css" href="./css/jarrod-theme.css">
+		<!-- Linking the modernizr.js -->
+		<script src="/js/vendor/modernizr.js"></script>
 	</head>
 
 	<body> 
@@ -144,9 +146,8 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="./css/slick/slick.min.js"></script>
 		<script type="text/javascript" src="./js/bootstrap.js"></script>
-		<script type="text/javascript" src="./js/foundation/foundation.js"></script>
-		<script type="text/javascript" src="./js/foundation/foundation.topbar.js"></script>
-		<script type="text/javascript" src="./js/foundation/foundation.dropdown.js"></script>
+		<script type="text/javascript" src="./js/foundation.min.js"></script>
+		<script> $(document).foundation(); </script>
 		
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -160,8 +161,6 @@
 
   			});
 			});
-
-
 		</script>
 	</body>
 </html>
