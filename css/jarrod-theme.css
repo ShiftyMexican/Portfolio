@@ -141,3 +141,10 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+
+#resume .panel li {
+	font-family: arial;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+}
