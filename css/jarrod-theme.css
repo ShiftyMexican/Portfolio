@@ -2,7 +2,7 @@ body {
 	background-image: url(../Images/darkwood.png);
 	background-repeat: repeat;
 
-	padding-top: 65px;
+	padding-top: 85px;
 }
 
 @font-face {
@@ -16,20 +16,25 @@ body {
 }
 
 h1{
-	font-family: myTitleFont;
+	font-family: myTextFont;
 }
 
 h2 {
-	font-family: myTitleFont;
+	font-family: myTextFont;
+	color: black;
 }
 
 h3 {
-	font-family: myTitleFont;
+	font-family: myTextFont;
 }
 
 p {
 	font-family: myTextFont;
-	font-size: 16px;
+	font-size: 12px;
+}
+
+a {
+	color: #000000;
 }
 
 .top-bar h1 {
@@ -55,6 +60,7 @@ p {
 .panel h3 {
 	color: #000;
 	text-decoration: underline;
+	font-size: 40px;
 }
 
 .panel p {
@@ -96,7 +102,7 @@ p {
 }
 
 #blog .panel{	
-	max-height: 500px;
+	max-height: 580px;
 	overflow-y:scroll;
 	padding-top: 15px;
 }
