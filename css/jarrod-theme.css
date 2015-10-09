@@ -142,8 +142,6 @@ a {
 }
 
 #blog .panel{	
-	max-height: 580px;
-	overflow-y:scroll;
 	padding-top: 15px;
 }
 .hero-unit {
