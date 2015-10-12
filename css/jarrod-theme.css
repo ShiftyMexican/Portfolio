@@ -17,6 +17,9 @@ body {
 
 h1{
 	font-family: myTextFont;
+		color: #000;
+	font-size: 70px;
+	text-decoration: underline;
 }
 
 h2 {
