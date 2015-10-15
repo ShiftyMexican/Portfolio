@@ -1,186 +1,171 @@
 body {
-	background-image: url(../Images/darkwood.png);
-	background-repeat: repeat;
-
-	padding-top: 85px;
+    background-image: url(../Images/dark_wall.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-top: 85px;
 }
-
 @font-face {
-	font-family: myTitleFont;
-	src: url(../Fonts/BarelyHandwritten.ttf);
+    font-family: myTitleFont;
+    src: url(../Fonts/BarelyHandwritten.ttf);
 }
-
 @font-face {
-	font-family: myTextFont;
-	src: url(../Fonts/CarlJohn.ttf);
+    font-family: myTextFont;
+    src: url(../Fonts/CarlJohn.ttf);
 }
-
-h1{
-	font-family: myTextFont;
-		color: #000;
-	font-size: 70px;
-	text-decoration: underline;
+h1 {
+    font-family: myTextFont;
+    color: #000;
+    font-size: 70px;
+    text-decoration: underline;
 }
-
 h2 {
-	font-family: myTextFont;
-	color: black;
+    font-family: myTextFont;
+    color: black;
 }
-
 h3 {
-	font-family: myTextFont;
+    font-family: myTextFont;
 }
-
 p {
-	font-family: "Roboto", sans-serif;
-	font-size: 12px;
-	color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #000;
 }
-
 a {
-	color: #000000;
+    color: #000000;
 }
-
+*{
+	border-radius: 0 !important;
+}
 .top-bar h1 {
-	color: white;
+    color: white;
 }
-
-.top-bar menu-background{
-	background: #000000;
+.top-bar {
+	background-color: #292c2f;
 }
-
+.top-bar menu-background {
+    background-color: #292c2f;
+}
+.top-bar li {
+	background-color: #292c2f;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #292c2f;
+}
 .panel h1 {
-	color: #000;
-	font-size: 70px;
-	text-decoration: underline;
+    color: #000;
+    font-size: 70px;
+    text-decoration: underline;
 }
-
 .panel h2 {
-	color: #000;
-	font-size: 50px;
-	text-decoration: underline;
+    color: #000;
+    font-size: 50px;
+    text-decoration: underline;
 }
-
 .panel h3 {
-	color: #000;
-	text-decoration: underline;
-	font-size: 40px;
+    color: #000;
+    text-decoration: underline;
+    font-size: 40px;
 }
-
 .panel h4 {
-	color: #000;
-	font-size: 20px;
+    color: #000;
+    font-size: 20px;
 }
-
 .panel p {
-	color: #000;
-	font-size: 20px;
-	font-family: "Roboto", sans-serif;
-
+    color: #000;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
-
 .panel {
-	padding-top: 35px;
-	padding-left: 35px;
-	padding-bottom: 35px;
-	padding-right: 35px;
-	margin-bottom: 35px;
-	border-style: solid;
-	border-color: white;
-	border-width: 5px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
-
 .thumbnail {
-	border-style: solid;
-	border-color: white;
-	border-width: 5px;
-	padding: 15px;
-	background-color: rgba(255,255,255,0.5);
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.6);
 }
-
 .thumbnail h3 {
-	font-size: 50px;
-	line-height: 1;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-decoration: underline;
-	color: #000;
+    font-size: 50px;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+    color: #000;
 }
-
 .thumbnail p {
-	font-size: 20px;
-	line-height: 1;
-	padding-left: 10px;
-	padding-right: 10px;
+    font-size: 20px;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
 .Aboutpanel {
-	padding: 50px;
-	padding-top: 35px;
-	padding-left: 35px;
-	padding-bottom: 35px;
-	padding-right: 35px;
-	margin-bottom: 35px;
-	border-style: double;
-	border-color: black;
-	border-width: 10px;
+    padding: 50px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
 }
-
-.blogPanel{
-	padding-top: 35px;
-	padding-left: 35px;
-	padding-bottom: 35px;
-	padding-right: 35px;
-	margin-bottom: 35px;
-	border-style: double;
-	border-color: black;
-	border-width: 10px;
-	line-height: 5;
+.blogPanel {
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    line-height: 5;
+    background-color: rgba(255,255,255,0.6);
 }
-
-.blogPanel img {
-	border-style: double;
-	border-width: 10px;
-	border-color: black;
-}
-
-#blog .panel{	
-	padding-top: 15px;
+#blog .panel {
+    padding-top: 15px;
 }
 .hero-unit {
-	margin-bottom: 35px;
-	border-style: solid;
-	border-color: white;
-	border-width: 5px;
+    margin-bottom: 35px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
-
+.hero-unit img {
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+}
 #resume .panel h2 {
-	text-decoration: none;
-	font-family: arial;
+    text-decoration: none;
+    font-family: arial;
 }
-
 #resume .panel h3 {
-	font-family: arial;
-	font-size: 30px;
-	text-decoration: none;
+    font-family: arial;
+    font-size: 30px;
+    text-decoration: none;
 }
-
 #resume .panel p {
-	font-family: arial;
-	font-size: 18px;
-	text-decoration: none;
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
 }
-
 #resume .panel b {
-	font-family: arial;
-	font-size: 18px;
-	text-decoration: none;
-	color: #000;
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
 }
-
 #resume .panel li {
-	font-family: arial;
-	font-size: 16px;
-	text-decoration: none;
-	color: #000;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
 }
