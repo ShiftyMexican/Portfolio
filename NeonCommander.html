@@ -33,7 +33,7 @@
   		<section class="top-bar-section">
     		<!-- Left Nav Section -->
     		<ul class="left">
-    			<li style="background-image: url(./Images/escheresque_ste.png)"><a href="#">Home</a></li>
+    			<li style="background-image: url(./Images/escheresque_ste.png)"><a href="./index.html">Home</a></li>
       			<li class="has-dropdown">
       			<a href="#">Projects</a>
       			<ul class="dropdown">
@@ -51,34 +51,46 @@
 		</div>
 
 		<div class="row">
-		<div class="hero-unit col-lg-12" style="background-color: rgba(255,255,255,0.5)">
-			<div class="slider col-lg-12" style="padding-top: 30px; padding-left: 20px; padding-right: 20px">
-    			<a href="./BeerRun.html">
-    				<img src="./Images/BeerRun.png" style="width:920px;height:400" align="middle">
-    			</a>
-    			<a href="./Projects.html#NeonCommander">
-    				<img src="./Images/NeonCommander.png" style="width:920px;height:400" align="middle">
-    			</a>
-    		</div>
-    	</div>
-  		</div>
-
-
-		<div class="row">
-			<div class="about-me">
-				<div class="panel col-lg-9 col-sm-7" style="background-color: rgba(255,255,255,0.5)">
-					<div class="Aboutpanel" style="background-color: rgba(255,255,255,0.6)">
-						<h2>About Me</h2>
-						<p>Hello my name is Jarrod Dowsey and this is my Portfolio. I am a student currently studying at the Academy of Interactive Entertainment in Melbourne, Victoria. The course I am studying is Professional Games Development Specializing in Programming. Having a look around my portfolio you will find some of my most proud pieces of work along with some other smaller projects I have worked on. </p>
-					</div>
-				</div>
-				<div class="panel col-lg-3 col-sm-3" style="background-color: rgba(255,255,255,0.5); height: 477px">
-					<h2><a href="./Projects.html">Projects</a></h2>
-					<h2><a href="./blog.html">Blog</a></h2>
-					<h2><a href="./Resume.html">Resume</a></h2>
+			<div class="panel col-lg-12">
+				<div class="Aboutpanel">
+					<h1 align="center">Neon Commander</h1>	
+					<p align="center"> Welcome to my Projects page. Here you will find my favourite pieces of work and can learn more information about their purposes and how the 	were created. Enjoy. </p>
 				</div>
 			</div>
+  		</div>
+
+  		<div class="row">
+  		<div class="panel col-lg-7">
+			<div class="Aboutpanel">
+				<h2>Screenshots</h2>	
+				<p>Here are some of the Screenshots from gameplay, as you can see the game is designed to have a neon look as well as being a fast paced twin stick shooter. Feel free to have a look at the source code or download the release build.</p>
+			</div>
 		</div>
+  		<div class="panel col-lg-5" style="height:445px;">
+			<div class="slider col-lg-12">
+    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    		</div>
+    		<div class="slider-nav col-lg-12">
+    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    		</div>
+    		<div class="row">
+    		<a href="https://github.com/ShiftyMexican/NeonCommander">
+    			<div class="btn btn-primary col-lg-6" hspace="20px">Source Code</div>
+    		</a>
+    		<a href="https://www.dropbox.com/sh/5hxhckfj8iqojcu/AACvnHl2A99PGbp7HTQlSFjka?dl=1">
+    			<div class="btn btn-success col-lg-6" hspace="20px">Release Build</div>
+    		</a>
+    		</div>
+    	</div>    		
+    	</div>
 
 		<footer class="footer-distributed">
 			<div class="footer-left">
@@ -139,12 +151,21 @@
   				autoplay: true,
   				autoplaySpeed: 3000,
   				infinite: true,
-  				dots: true,
   				pauseOnHover: false,
   				mobileFirst: true,
+  				fade: true,
+  				asNavFor: '.slider-nav',
 
   			});
 			});
+
+			$('.slider-nav').slick({
+  			slidesToShow: 3,
+  			slidesToScroll: 1,
+  			asNavFor: '.slider',
+  			centerMode: true,
+  			focusOnSelect: true
+});
 		</script>
 	</body>
 </html>
