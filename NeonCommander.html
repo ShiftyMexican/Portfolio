@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Jarrod Dowsey - Home</title>
+		<title>Jarrod Dowsey - Neon Commander</title>
 		<!-- Linking the Bootstrap css -->
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 		<!-- Linking the Foundation css -->
@@ -54,7 +54,7 @@
 			<div class="panel col-lg-12">
 				<div class="Aboutpanel">
 					<h1 align="center">Neon Commander</h1>	
-					<p align="center"> Welcome to my Projects page. Here you will find my favourite pieces of work and can learn more information about their purposes and how the 	were created. Enjoy. </p>
+					<p align="center"> Neon Commander is a single player Twin Sticks Shooter in which you have only one objective, Survive! This was my very first group project and assisted in creating a foundation for communication within a team environment. Through the use of the engine Monogame, myself and two others wrote this up in the language C# and all up spent 10 weeks putting it together. Below there are a few screenshots and more in depth explanations of the different features of the game.</p>
 				</div>
 			</div>
   		</div>
@@ -70,15 +70,15 @@
 			<div class="slider col-lg-12">
     			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
     			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
-    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
-    			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
+    			<img src="./Images/Enemies.png" vspace="25px" align="middle">
+    			<img src="./Images/GamePadControls.png" vspace="25px" align="middle">
     			<img src="./Images/NeonCommander.png" vspace="25px" align="middle">
     		</div>
     		<div class="slider-nav col-lg-12">
     				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
     				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
-    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
-    				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
+    				<img src="./Images/Enemies.png" hspace="5px" align="middle">
+    				<img src="./Images/GamePadControls.png" hspace="5px" align="middle">
     				<img src="./Images/NeonCommander.png" hspace="5px" align="middle">
     		</div>
     		<div class="row">
@@ -91,6 +91,24 @@
     		</div>
     	</div>    		
     	</div>
+
+    	<div class="row">
+  		<div class="panel col-lg-12">
+			<div class="Aboutpanel">
+				<h2>Game Features</h2>	
+				<p>Since the only objective of the game is to survive we had to had some extra features to keep the game enjoyable. As you play you can fly in any direction as well as shoot in any direction, to make the more interesting we added power ups. Power ups vary between different abilities whether it be an Upgrade to your ship to increase speed or fire rate or a shield or bomb to protect you from the dangerous AI characters ( More on the AI below ). The main drive of surviving is you only have one life so if you die thats game over and your score will be saved in your personally leaderboards. Neon Commander can also be played using the keyboard and mouse for those who do not use controllers.</p>
+			</div>
+		</div>
+		</div>
+
+		<div class="row">
+  		<div class="panel col-lg-12">
+			<div class="Aboutpanel">
+				<h2>The All Important AI</h2>	
+				<p>For this game really to be fun we needing to develop smart and challenging AI. We have 4 different AI in the game, the first of which is a very basic suicide AI that homes in on your position in hope of smashing into you and ending the game. The next AI is the Bomb Dropper, set on a random path around the world it simply drops bombs that oyu must avoid or else you will lose. The third AI is one of the more challenging to handle, its the Multi Shooter, as its name describes it spawns into one spot in the world and shoots deadly projectiles in 8 different directions. The final AI character and my personal favourite is the Missile Enemy, it has a random path that it follows until you enter its line of sight and then it locks on and shoots itself at a high speed towards your position.</p>
+			</div>
+		</div>
+		</div>
 
 		<footer class="footer-distributed">
 			<div class="footer-left">
@@ -149,9 +167,9 @@
   			$('.slider').slick({
   				arrows: false,
   				autoplay: true,
-  				autoplaySpeed: 3000,
+  				autoplaySpeed: 5000,
   				infinite: true,
-  				pauseOnHover: false,
+  				pauseOnHover: true,
   				mobileFirst: true,
   				fade: true,
   				asNavFor: '.slider-nav',
