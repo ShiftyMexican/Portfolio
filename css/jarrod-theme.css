@@ -37,7 +37,11 @@ a {
 	border-radius: 0 !important;
 }
 .top-bar h1 {
+	font-family: "Roboto", sans-serif;
     color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
 }
 .top-bar {
 	background-color: #292c2f;
