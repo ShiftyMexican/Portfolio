@@ -33,14 +33,14 @@
   		<section class="top-bar-section">
     		<!-- Left Nav Section -->
     		<ul class="left">
-    			<li style="background-image: url(./Images/escheresque_ste.png)"><a href="#">Home</a></li>
+    			<li style="background-image: url(./Images/escheresque_ste.png)"><a href="./index.html">Home</a></li>
       			<li class="has-dropdown">
       			<a href="#">Projects</a>
       			<ul class="dropdown">
       				<li><a href="./Projects.html">Projects Home</a></li>
       				<li><a href="./NeonCommander.html">Neon Commander</a></li>
       				<li><a href="./BeerRun.html">Beer Run</a></li>
-      				<li><a href="./InsideUnity.html">Inside Unity</a></li>
+      				<li><a href="#">Inside Unity</a></li>
       			</ul>
       			</li>
       			<li><a href="./blog.html">Blog</a></li>
@@ -52,34 +52,28 @@
 		</div>
 
 		<div class="row">
-		<div class="hero-unit col-lg-12" style="background-color: rgba(255,255,255,0.5)">
-			<div class="slider col-lg-12" style="padding-top: 30px; padding-left: 20px; padding-right: 20px">
-    			<a href="./BeerRun.html">
-    				<img src="./Images/BeerRun.png" style="width:920px;height:400" align="middle">
-    			</a>
-    			<a href="./Projects.html#NeonCommander">
-    				<img src="./Images/NeonCommander.png" style="width:920px;height:400" align="middle">
-    			</a>
-    		</div>
-    	</div>
-  		</div>
-
-
-		<div class="row">
-			<div class="about-me">
-				<div class="panel col-lg-9 col-sm-7" style="background-color: rgba(255,255,255,0.5)">
-					<div class="Aboutpanel" style="background-color: rgba(255,255,255,0.6)">
-						<h2>About Me</h2>
-						<p>Hello my name is Jarrod Dowsey and this is my Portfolio. I am a student currently studying at the Academy of Interactive Entertainment in Melbourne, Victoria. The course I am studying is Professional Games Development specializing in programming. Having a look around my portfolio you will find some of my best pieces of work along with some smaller projects I have worked on. </p>
-					</div>
-				</div>
-				<div class="panel col-lg-3 col-sm-3" style="background-color: rgba(255,255,255,0.5); height: 477px">
-					<h2><a href="./Projects.html">Projects</a></h2>
-					<h2><a href="./blog.html">Blog</a></h2>
-					<h2><a href="./Resume.html">Resume</a></h2>
+			<div class="panel col-lg-12">
+				<div class="Aboutpanel">
+					<h1 align="center">Inside Unity</h1>	
+					<p align="center">After learning how the basics of the Unity Engine work I decided I would take it further and look into function and extensions Unity has to make your time using it much better. Below are code examples and explanations of some cool things you can do with Unity.</p>
 				</div>
 			</div>
-		</div>
+  		</div>
+
+  		<div class="row">
+  			<div class="thumbnail col-lg-3">
+  				<h3 align="center">Editor Extensions</h3>
+  				<a href="./InsideUnity.html#EditorExtensions">				
+  					<div class="btn btn-success col-xs-12 col-lg-12">View More</div>
+  				</a>
+  			</div>
+  		</div>
+
+  		<div class="row">
+  			<div class="panel col-lg-12" id="EditorExtensions">
+  				<h3 align="center">Editor Extensions</h3>
+  			</div>
+  		</div>
 
 		<footer class="footer-distributed">
 			<div class="footer-left">
@@ -132,22 +126,7 @@
 		<script type="text/javascript" src="./js/foundation.min.js"></script>
 		<script type="text/javascript" src="/js/vendor/modernizr.js"></script>
 		<script> $(document).foundation(); </script>
-		
-		<script type="text/javascript">
-			$(document).ready(function(){
-  			$('.slider').slick({
-  				arrows: false,
-  				autoplay: true,
-  				autoplaySpeed: 3000,
-  				infinite: true,
-  				dots: true,
-  				pauseOnHover: false,
-  				mobileFirst: true,
 
-  			});
-			});
-		</script>
-		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
