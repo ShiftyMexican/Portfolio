@@ -73,6 +73,12 @@
   					<div class="btn btn-success col-xs-12 col-lg-12">View More</div>
   				</a>
   			</div>
+  			<div class="thumbnail col-lg-3">
+  				<h3 align="center">Sphere<br>Cast</h3>
+  				<a href="./InsideUnity.html#SphereCast">				
+  					<div class="btn btn-success col-xs-12 col-lg-12">View More</div>
+  				</a>
+  			</div>
   		</div>
 
 		<!-- Editor Extension -->
@@ -115,11 +121,12 @@
   			</div>
   		</div>
 
+  		<!-- List Sorting -->
   		<div class="row">
   			<div class="panel col-lg-12" id="ListSorting">
   				<h3 align="center">List Sorting</h3>
   				<p align="center">
-  				This one could have number of different uses and in my case i have implemented it as a function to make my designers life much easier when she enters a store and is changing the prices of objects in our store. List sorting is very handy and below i will show you how simple it is to use.<br><br>For this example i have created a class called "ExampleObject", it is simply just an object that contains one int which is its ID.First of all lets populate a list with 5 of these objects and then randomly asign an ID to each of them, the code is as follows.
+  				This one could have number of different uses and in my case I have implemented it as a function to make my designers life much easier when they enter the prices of objects in our store. List sorting is very handy and below I will show you how simple it is to use.<br><br>For this example I have created a class called "ExampleObject", it is simply just an object that contains one int which is its ID. First of all lets populate a list with 5 of these objects and then randomly asign an ID to each of them, the code is as follows.
   				</p>
 
   				<div class="row">
@@ -140,10 +147,42 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>The line of code i have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order funtion. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
+  				<br>The line of code I have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order funtion. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
   				</p>
   				</div>
 
+  			</div>
+  		</div>
+
+  		<!-- Sphere Cast -->
+  		<div class="row">
+  			<div class="panel col-lg-12" id="SphereCast">
+  				<h3 align="center">Sphere Cast</h3>
+  				<p align="center">
+  				I have found in my time making Beer Run that it is vital to ensure coins and obstacles were not overlapping with each other as it caused frustration when you died while collecting coins. I will not be making a tutorial for Sphere Casting as I will in stead go through and break down the process I went through to implement Sphere Casting into Beer Run.<br><br> I'll start by explaining how my spawning works. The obstacles in the game are on timers and spawn at random distances from the player, the coins are the same only they spawn a set distance away to keep them consistant. Now because the coins were spawning after obstacles I had to do a more complex Sphere Cast to get this to work. To ensure that not a sinlge one of the 8 coins per group were not colliding with an obstacle I had to do 8 sphere casts in a line and if any of them returned a collision a new lane needed to be selected and and another search conducted.<br><br>
+<!--
+  				<div class="row">
+  					<img class="col-lg-6" src="./Images/UnsortedListCode.PNG">
+  					<img class="col-lg-6" src="./Images/UnsortedListDebug.PNG">
+  				</div>
+
+  				<div class="row">
+  				<p align="center">
+  				<br>Now that we have a list populated with 5 objects all of which now have a random ID we can start with the sorting. As you can see above I have used Debug.Log() to show the list items being out of order. The way we sort these is by using the OrderBy function, to use this you will need "using System.Linq" at he top with your includes. In the code below I will show you just how simple it is to use the OrderBy function.<br>
+  				</p>
+  				</div>
+
+  				<div class="row">
+  					<img class="col-lg-6" src="./Images/SortedListCode.PNG">
+  					<img class="col-lg-6" src="./Images/SortedListDebug.PNG">
+  				</div>
+
+  				<div class="row">
+  				<p align="center">
+  				<br>The line of code I have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order funtion. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
+  				</p>
+  				</div>
+-->
   			</div>
   		</div>
 
