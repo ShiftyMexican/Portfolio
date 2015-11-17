@@ -126,7 +126,7 @@
   			<div class="panel col-lg-12" id="ListSorting">
   				<h3 align="center">List Sorting</h3>
   				<p align="center">
-  				This one could have number of different uses and in my case I have implemented it as a function to make my designers life much easier when they enter the prices of objects in our store. List sorting is very handy and below I will show you how simple it is to use.<br><br>For this example I have created a class called "ExampleObject", it is simply just an object that contains one int which is its ID. First of all lets populate a list with 5 of these objects and then randomly asign an ID to each of them, the code is as follows.
+  				This one could have number of different uses and in my case I have implemented it as a function to make my designers life much easier when they enter the prices of objects in our store. List sorting is very handy and below I will show you how simple it is to use.<br><br>For this example I have created a class called "ExampleObject", it is simply just an object that contains one int which is its ID. First of all lets populate a list with 5 of these objects and then randomly assign an ID to each of them, the code is as follows.
   				</p>
 
   				<div class="row">
@@ -136,7 +136,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>Now that we have a list populated with 5 objects all of which now have a random ID we can start with the sorting. As you can see above I have used Debug.Log() to show the list items being out of order. The way we sort these is by using the OrderBy function, to use this you will need "using System.Linq" at he top with your includes. In the code below I will show you just how simple it is to use the OrderBy function.<br>
+  				<br>Now that we have a list populated with 5 objects all of which now have a random ID we can start with the sorting. As you can see above I have used Debug.Log() to show the list items being out of order. The way we sort these is by using the OrderBy function, to use this you will need "using System.Linq" at the top with your includes. In the code below I will show you just how simple it is to use the OrderBy function.<br>
   				</p>
   				</div>
 
@@ -147,7 +147,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>The line of code I have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order funtion. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
+  				<br>The line of code I have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order function. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
   				</p>
   				</div>
 
@@ -172,7 +172,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>Now that the position data is set up and stored its time to do the Sphere Cast. First of all I have a for loop set for 8 iterations. If the Sphere Cast is returning no collisions the for loop will continue otherwise it will break out and start the function again and select a new lane. In the below code snippet you will see the first thing I create is a "var collision". This is a local variable that is set the the Sphere Cast. Sphere Cast returns a list of collisions that are made on any particualr position. To complete a Sphere Cast you'll need to pass in the correct parameters. It takes in a position, a radius for the search and then it takes in which layer of objects in the world you would like to search. The underlined line of code is the Sphere Cast.<br>
+  				<br>Now that the position data is set up and stored its time to do the Sphere Cast. First of all I have a for loop set for 8 iterations. If the Sphere Cast is returning no collisions the for loop will continue otherwise it will break out and start the function again and select a new lane. In the below code snippet you will see the first thing I create is a "var collision". This is a local variable that is set the the Sphere Cast. Sphere Cast returns a list of collisions that are made on any particular position. To complete a Sphere Cast you'll need to pass in the correct parameters. It takes in a position, a radius for the search and then it takes in which layer of objects in the world you would like to search. The underlined line of code is the Sphere Cast.<br>
   				</p>
   				</div>
 
@@ -182,7 +182,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>You will see above I use the collision variable to check if a colision was made, if it was the loop needs to be broken and another lane needs to be selected, otherwise the loop will continue until either a collision is found or until all 8 iterations are complete meaning the coins can be placed in the correct spot. I use the hit count variable to keep track of how many successful iterations there has been.<br>
+  				<br>You will see above I use the collision variable to check if a collision was made, if it was the loop needs to be broken and another lane needs to be selected, otherwise the loop will continue until either a collision is found or until all 8 iterations are complete meaning the coins can be placed in the correct spot. I use the hit count variable to keep track of how many successful iterations there has been.<br>
   				</p>
   				</div>
 
@@ -198,7 +198,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>With this function I can successfully place coins in their own lane and ensure there are no obstacles in the middle of them. Learning the Sphere Cast function was incredibly helpful and has noticably benifitted gameplay, it is an amazing function to know if you are using the Unity Engine, it could be helpful in many different instances.
+  				<br>With this function I can successfully place coins in their own lane and ensure there are no obstacles in the middle of them. Learning the Sphere Cast function was incredibly helpful and has noticeably benefited game play, it is an amazing function to know if you are using the Unity Engine, it could be helpful in many different instances.
   				</p>
   				</div>
   			</div>
