@@ -16,7 +16,6 @@ h1 {
     font-family: myTextFont;
     color: #000;
     font-size: 70px;
-    text-decoration: underline;
 }
 h2 {
     font-family: myTextFont;
@@ -58,16 +57,16 @@ a {
 .panel h1 {
     color: #000;
     font-size: 70px;
-    text-decoration: underline;
+    
 }
 .panel h2 {
     color: #000;
     font-size: 50px;
-    text-decoration: underline;
+    
 }
 .panel h3 {
     color: #000;
-    text-decoration: underline;
+    
     font-size: 40px;
 }
 .panel h4 {
@@ -102,7 +101,6 @@ a {
     line-height: 1;
     padding-left: 10px;
     padding-right: 10px;
-    text-decoration: underline;
     color: #000;
 }
 .thumbnail p {
