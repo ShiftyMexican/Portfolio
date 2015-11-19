@@ -54,7 +54,7 @@
 			<div class="panel col-lg-12">
 				<div class="Aboutpanel">
 					<h1 align="center">Inside Unity</h1>	
-					<p align="center">After learning how the basics of the Unity Engine work I decided I would take it further and look into function and extensions Unity has to make your time using it much better. Below are code examples and explanations of some cool things you can do with Unity.</p>
+					<p align="center">After learning how the basics of the Unity Engine work, I decided I would take it further and look into functions and extensions Unity has to make your time using it much better. Below are code examples and explanations of some cool things you can do with Unity.</p>
 				</div>
 			</div>
   		</div>
@@ -85,7 +85,7 @@
   			<div class="panel col-lg-12" id="EditorExtensions">
   				<h3 align="center">Editor Extensions</h3>
   				<p align="center">
-  				Have you ever been inside the Unity Editor and thought to yourself, I wish this was much neater and easier to read. Well with the help of editor extensions you can make small and simple additions to your code that will make your time in the Unity Editor much easier.<br><br>The extensions I will include in this piece are just some simple ones that I've found and thought are note worthy. First off I'll start with the "Header", super simple but makes editor navigation significantly easier.<br><br>The below example is what a completely unformatted piece of code looks like in the Unity Editor.
+  				Have you ever been inside the Unity Editor and thought to yourself, “I wish this was much neater and easier to read”? Well with the help of editor extensions you can make small and simple additions to your code that will make your time in the Unity Editor much easier.<br><br>The extensions I will include in this piece are just some simple ones that I've found and thought are note worthy. First off I'll start with the "Header", super simple but makes editor navigation significantly easier.<br><br>The below example is what a completely unformatted piece of code looks like in the Unity Editor.
   				</p>
 
   				<div class="row">
@@ -105,7 +105,7 @@
 
   				<div class="row">
   					<p align="center">
-  					<br>It's already looking much better and a lot neater. Lets take this a little further and add a range to each of the variables. Its just as simple, add in the "Range" tag and then add the minimum and maaximum range you want to allow for your variables.<br></p>
+  					<br>It's already looking much better and a lot neater. Let’s take this a little further and add a range to each of the variables. It’s just as simple; add in the "Range" tag and then add the minimum and maximum range you want to allow for your variables.<br></p>
   				</div>
 
   				<div class="row">
@@ -115,7 +115,7 @@
 
   				<div class="row">
   					<p align="center">
-  					<br>The Range attribute adds a slider to the editor allowing you to choose values with ease, as you can see its simple to use and nice to look at. This brings me to the end of a short tutorial on Editor Extensions but do know there are many more things you can do to extend the editor and it's definitely something worth looking in to.<br></p>
+  					<br>The Range attribute adds a slider to the editor, allowing you to choose values with ease. As you can see, it’s simple to use and nice to look at. This brings me to the end of a short tutorial on Editor Extensions but do know there are many more things you can do to extend the editor and it's definitely something worth looking in to.<br></p>
   				</div>
   			</div>
   		</div>
@@ -125,7 +125,7 @@
   			<div class="panel col-lg-12" id="ListSorting">
   				<h3 align="center">List Sorting</h3>
   				<p align="center">
-  				This one could have number of different uses and in my case I have implemented it as a function to make my designers life much easier when they enter the prices of objects in our store. List sorting is very handy and below I will show you how simple it is to use.<br><br>For this example I have created a class called "ExampleObject", it is simply just an object that contains one int which is its ID. First of all lets populate a list with 5 of these objects and then randomly assign an ID to each of them, the code is as follows.
+  				This one could have a number of different uses and in my case, I have implemented it as a function to make my designer’s life much easier when they enter the prices of objects in our store. List sorting is very handy and below I will show you how simple it is to use.<br><br>For this example I have created a class called "ExampleObject". It is simply just an object that contains one int which is its ID. First of all, let’s populate a list with 5 of these objects and then randomly assign an ID to each of them. The code is as follows:
   				</p>
 
   				<div class="row">
@@ -135,7 +135,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>Now that we have a list populated with 5 objects all of which now have a random ID we can start with the sorting. As you can see above I have used Debug.Log() to show the list items being out of order. The way we sort these is by using the OrderBy function, to use this you will need "using System.Linq" at the top with your includes. In the code below I will show you just how simple it is to use the OrderBy function.<br>
+  				<br>Now that we have a list populated with 5 objects – all of which now have a random ID – we can start with the sorting. As you can see above, I have used Debug.Log() to show the list of items being out of order. The way we sort these is by using the OrderBy function. To use this you will need "using System.Linq" at the top with your includes. In the code below I will show you just how simple it is to use the OrderBy function.<br>
   				</p>
   				</div>
 
@@ -146,7 +146,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>The line of code I have underlined above is the OrderBy function, as you can see it is very easy. You simply set a list to be equal to itself and call the order function. The function it self takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works, it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
+  				<br>The line of code I have underlined above is the OrderBy function. As you can see, it is very easy. You simply set a list to be equal to itself and call the order function. The function itself takes in my example object and then tells the function what variable within the object to sort the list by. The image of the debug logs is the proof it works; it shows the new sorted list values in ascending order.<br><br>This tutorial was quick and simple and should help in sorting lists, being able to do this can be very handy in many different situations so its always a good thing to remember that Unity has it built in.
   				</p>
   				</div>
 
@@ -158,11 +158,11 @@
   			<div class="panel col-lg-12" id="SphereCast">
   				<h3 align="center">Sphere Cast</h3>
   				<p align="center">
-  				I have found in my time making Beer Run that it is vital to ensure coins and obstacles were not overlapping with each other as it caused frustration when you died while collecting coins. I will not be making a tutorial for Sphere Casting as I will in stead go through and break down the process I went through to implement Sphere Casting into Beer Run.<br><br> I'll start by explaining how my spawning works. The obstacles in the game are on timers and spawn at random distances from the player, the coins are the same only they spawn a set distance away to keep them consistant. Now because the coins were spawning after obstacles I had to do a more complex Sphere Cast to get this to work. To ensure that not a sinlge one of the 8 coins per group were not colliding with an obstacle I had to do 8 sphere casts in a line and if any of them returned a collision a new lane needed to be selected and and another search conducted.<br><br>Ok lets start at the very beginning of this function. First of all I've got a for loop set up to search 5 times, one for each lane, if a lane is found before all 5 iterations then the function will simply be returned.<br><br>
+  				I have found in my time making Beer Run that it is vital to ensure coins and obstacles were not overlapping with each other as it caused frustration when you died while collecting coins. I will not be making a tutorial for Sphere Casting as I will in stead go through and break down the process I went through to implement Sphere Casting into Beer Run.<br><br> I'll start by explaining how my spawning works. The obstacles in the game are on timers and spawn at random distances from the player, the coins are the same only they spawn a set distance away to keep them consistant. Now because the coins were spawning after obstacles I had to do a more complex Sphere Cast to get this to work. To ensure that not a single one of the 8 coins per group were not colliding with an obstacle, I had to do 8 sphere casts in a line and if any of them returned, a new lane needed to be selected and another search conducted.<br><br>OK, let’s start at the very beginning of this function. First of all I've got a for loop set up to search 5 times, one for each lane, if a lane is found before all 5 iterations then the function will simply be returned.<br><br>
 
   				<div class="row">
   					<img class="col-lg-6" align="centre" src="./Images/SphereCast1.PNG">
-  					<p>The hitcount variable is used later to determine amount of successful iterations. The First thing done inside the for loop is selecting a random lane position.
+  					<p>The hitcount variable is used later to determine the amount of successful iterations. The first thing done inside the ‘for loop’ is selecting a random lane position. 
   				</div>
   				<div class="row">
   					<img class="col-lg-6" align="centre" src="./Images/SphereCast2.PNG">
@@ -171,7 +171,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>Now that the position data is set up and stored its time to do the Sphere Cast. First of all I have a for loop set for 8 iterations. If the Sphere Cast is returning no collisions the for loop will continue otherwise it will break out and start the function again and select a new lane. In the below code snippet you will see the first thing I create is a "var collision". This is a local variable that is set the the Sphere Cast. Sphere Cast returns a list of collisions that are made on any particular position. To complete a Sphere Cast you'll need to pass in the correct parameters. It takes in a position, a radius for the search and then it takes in which layer of objects in the world you would like to search. The underlined line of code is the Sphere Cast.<br>
+  				<br>Now that the position data is set up and stored, it’s time to do the Sphere Cast. First of all, I have a ‘for loop’ set for 8 iterations. If the Sphere Cast is returning no collisions, the ‘for loop’ will continue, otherwise it will break out and start the function again and select a new lane. In the below code snippet you will see the first thing I create is a "var collision". This is a local variable that is set the the Sphere Cast. Sphere Cast returns a list of collisions that are made on any particular position. To complete a Sphere Cast you'll need to pass in the correct parameters. It takes in a position, a radius for the search and then it takes in which layer of objects in the world you would like to search. The underlined line of code is the Sphere Cast.<br>
   				</p>
   				</div>
 
@@ -181,13 +181,13 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>You will see above I use the collision variable to check if a collision was made, if it was the loop needs to be broken and another lane needs to be selected, otherwise the loop will continue until either a collision is found or until all 8 iterations are complete meaning the coins can be placed in the correct spot. I use the hit count variable to keep track of how many successful iterations there has been.<br>
+  				<br>You will see above I use the collision variable to check if a collision was made. If it was, the loop needs to be broken and another lane needs to be selected, otherwise the loop will continue until either a collision is found or until all 8 iterations are complete, meaning the coins can be placed in the correct spot. I use the hit count variable to keep track of how many successful iterations there have been.<br>
   				</p>
   				</div>
 
   				<div class="row">
   				<p align="center">
-  				<br>Below you will see the final part of this function. If the hitcount hits 8 and there is no collision it will populate a list preparing the coins to be placed in the world. The position of each coin is then set and then placed in the world. The function will return and clear all lists is preparation for the next group of coins<br>
+  				<br>Below you will see the final part of this function. If the hitcount hits 8 and there is no collision it will populate a list preparing the coins to be placed in the world. The position of each coin is then set and then placed in the world. The function will return and clear all lists in preparation for the next group of coins.<br>
   				</p>
   				</div>
 
@@ -197,7 +197,7 @@
 
   				<div class="row">
   				<p align="center">
-  				<br>With this function I can successfully place coins in their own lane and ensure there are no obstacles in the middle of them. Learning the Sphere Cast function was incredibly helpful and has noticeably benefited game play, it is an amazing function to know if you are using the Unity Engine, it could be helpful in many different instances.
+  				<br>With this function I can successfully place coins in their own lane and ensure there are no obstacles in the middle of them. Learning the Sphere Cast function was incredibly helpful and has noticeably benefited game play. It is an amazing function to know if you are using the Unity Engine and it could be helpful in many different instances. 
   				</p>
   				</div>
   			</div>
